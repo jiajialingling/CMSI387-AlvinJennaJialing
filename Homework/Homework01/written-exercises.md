@@ -19,6 +19,6 @@ Authors: Qiyue Aixinjueluo, Jenna Berlinberg, Alvin Lai
 
     100 * (10ms + 1ms + 1ms + 1ms) = 1300ms
 
-    c) TODO
+    c) B is more efficient because of its resource utilization: keeping the hardware occupied if a thread is idle by allowing other threads to make use of that hardware space.
 
 5. 
