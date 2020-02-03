@@ -19,6 +19,9 @@ Authors: Qiyue Aixinjueluo, Jenna Berlinberg, Alvin Lai
 
     100 * (10ms + 1ms + 1ms + 1ms) = 1300ms
 
-    c) B is more efficient because of its resource utilization: keeping the hardware occupied if a thread is idle by allowing other threads to make use of that hardware space.
+    c) B is more efficient because of its resource utilization: keeping the hardware occupied if a thread is idle by allowing other threads to make use of that hardware space. Such resourcefulness may reduces run time significantly.
 
-5. 
+5. TODO
+
+6. ![](problem6chart.png)
+    ![](problem6table.png)
