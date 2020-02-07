@@ -7,9 +7,9 @@ Authors: Qiyue Aixinjueluo, Jenna Berlinberg, Alvin Lai
 
 1. Middleware is the software between the application programs and the operating system which provides mechanisms to support interactions between the two. Apps tell middleware the actions to perform, then middleware tells the OS what to do, and finally the OS communicates with the hardware to tell it what to do.
 
-2. A thread is a sequence of programmed actions. Being a unit of concurrency, OS's allow multiple threads to run simultaneously. Processes are containers which hold thread(s) and prevents unnecessarry/unwanted interactions between unrelated threads.
+2. A thread is a sequence of programmed actions. Being a unit of concurrency, OS's allow multiple threads to run simultaneously. Processes are containers which hold thread(s) and prevents unnecessary/unwanted interactions between unrelated threads.
 
-3. TODO: consult with group on an answer
+3. Jenna is particularly interested in learning about file systems and metadata that will be explored in chapter 8; she is more interested in security, but, sadly, we are not going over that part of the book in this class. 
 
 4. a) 1 iteration = 10ms (thread A disk I/O) + 1ms (thread A computation)
 
