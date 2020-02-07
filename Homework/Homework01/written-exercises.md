@@ -21,7 +21,8 @@ Authors: Qiyue Aixinjueluo, Jenna Berlinberg, Alvin Lai
 
     c) B is more efficient because of its resource utilization: keeping the hardware occupied if a thread is idle by allowing other threads to make use of that hardware space. Such resourcefulness may reduces run time significantly.
 
-5. ```c
+5.
+```c
 #include <pthread.h>
 #include <unistd.h>
 #include <stdio.h>
@@ -52,7 +53,8 @@ Upon running this program, I found that the messages can be run from the sleepin
   ![](problem6chart.png)
     ![](problem6table.png)
 
-7. ```c
+7.
+```c
 #include <stdio.h>
 
 int main(int argc, char * argv[]) {
@@ -91,4 +93,4 @@ int main(int argc, char * argv[]) {
     printf("Name: %s\nAge: %d\nClass year: %d\nGender: %s\nState: %s\nSiblings: %s\n\n", name, age, classYear, gender, state, siblings);
 }
 ```
-Above code also provided in the file demographics.c 
+Above code also provided in the file demographics.c
