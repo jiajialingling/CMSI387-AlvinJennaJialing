@@ -7,7 +7,7 @@ int main(int argc, char * argv[]) {
     char gender[10];
     char state[50];
     char siblings[4];
-    
+
     printf("What is your name: ");
     fgets(name, sizeof(name), stdin);
     //this is to handle the extra '\n' character at the end of the array
@@ -17,19 +17,19 @@ int main(int argc, char * argv[]) {
             break;
         }
     }
-    
+
     printf("\nWhat is your age: ");
     scanf("%d", &age);
     printf("\nWhat is your class year: ");
     scanf("%d", &classYear);
     printf("\nWhat is your gender: ");
     scanf("%s", gender);
-    printf("\nWhich state were you from: ");
+    printf("\nWhich state are you from: ");
     scanf("%s", state);
     printf("\nDo you have siblings (Yes/No): ");
     scanf("%s", siblings);
     printf("\nThank you!\n");
-    
+
     printf("\n====================\n");
     printf("    Demographics    \n");
     printf("====================\n");
