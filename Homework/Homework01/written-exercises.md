@@ -9,7 +9,7 @@ Authors: Qiyue Aixinjueluo, Jenna Berlinberg, Alvin Lai
 
 2. A thread is a sequence of programmed actions. Being a unit of concurrency, OS's allow multiple threads to run simultaneously. Processes are containers which hold thread(s) and prevents unnecessary/unwanted interactions between unrelated threads.
 
-3. Jenna is particularly interested in learning about file systems and metadata that will be explored in chapter 8; she is more interested in security, but, sadly, we are not going over that part of the book in this class. 
+3. Jenna is particularly interested in learning about file systems and metadata that will be explored in chapter 8; she is more interested in security, but, sadly, we are not going over that part of the book in this class. Qiyue is particularly interested in how exactly middleware, the hidden translation layer, works with all different kinds of applications. Applications may be written in many different programming languages and how the middleware enables communication and data management would be insightful to learn.
 
 4. a) 1 iteration = 10ms (thread A disk I/O) + 1ms (thread A computation)
 
