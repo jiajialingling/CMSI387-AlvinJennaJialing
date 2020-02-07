@@ -21,7 +21,7 @@ Authors: Qiyue Aixinjueluo, Jenna Berlinberg, Alvin Lai
 
     c) B is more efficient because of its resource utilization: keeping the hardware occupied if a thread is idle by allowing other threads to make use of that hardware space. Such resourcefulness may reduces run time significantly.
 
-5. ```c
+5. Upon running this program, I found that the messages can be run from the sleeping thread each 5 seconds while the main thread waits on its input. The main thread can read input, kill the second thread, and print out confirmation at the very beginning of the second thread's sleep. The following program also lies in pthreadcancel.c ```c
 #include <pthread.h>
 #include <unistd.h>
 #include <stdio.h>
@@ -47,8 +47,6 @@ int main(int argc, char *argv[]){
    return 0;
 }
 ```
-
-Upon running this program, I found that the messages can be run from the sleeping thread each 5 seconds while the main thread waits on its input. The main thread can read input, kill the second thread, and print out confirmation at the very beginning of the second thread's sleep. The above program also lies in pthreadcancel.c
 
 6.
   ![](problem6chart.png)
