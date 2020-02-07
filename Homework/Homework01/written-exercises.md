@@ -53,7 +53,8 @@ int main(int argc, char *argv[]){
   ![](problem6chart.png)
     ![](problem6table.png)
 
-7.```c
+7. Following code also provided in the file demographics.c
+```c
 #include <stdio.h>
 
 int main(int argc, char * argv[]) {
@@ -92,4 +93,3 @@ int main(int argc, char * argv[]) {
     printf("Name: %s\nAge: %d\nClass year: %d\nGender: %s\nState: %s\nSiblings: %s\n\n", name, age, classYear, gender, state, siblings);
 }
 ```
-Above code also provided in the file demographics.c
