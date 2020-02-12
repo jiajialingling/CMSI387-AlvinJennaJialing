@@ -1,2 +1,2 @@
 # CMSI387-Operating-System
-Jenna Berlinberg, Alvin Lai, Jialing Li
+Jenna Berlinberg, Alvin Lai, Qiyue Aixinjueluo
