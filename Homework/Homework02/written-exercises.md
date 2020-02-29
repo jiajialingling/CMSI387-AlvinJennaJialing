@@ -8,11 +8,11 @@ Having `State snapshot = state.get();` in the `audit()` function ensures that th
 
 ### 6)
 
-Virtual Address: first = 12288, last = 16380
+Virtual Address: `first = 12288`, `last = 16380`
 
-To get the physical addresses, add `4096` to the virtual addresses
+To get the physical addresses, multiple the addresses by `4096`
 
-Physical Address: first = 24576, last = 28668
+Physical Address: `first = 24576`, `last = 28668`
 
 ### 7)
 
