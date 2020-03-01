@@ -17,3 +17,7 @@ Physical Address: `first = 24576`, `last = 28668`
 ### 7)
 
 `1047552` and `1047553` come from the index of the last page table. Each page can point to 1024 frames, thus multiplying the last page, `1023` by `1024` yields the values `1047552` & `1047553`
+
+### 9)
+
+There are `8 processes` from the C program, `2 processes` from bash. `10 total processes`
