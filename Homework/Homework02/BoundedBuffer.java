@@ -15,7 +15,9 @@ public class BoundedBuffer {
        }
        buffer[( firstOccupied + numOccupied ) % buffer.length] = o;
        numOccupied++;
-       notifyAll();      // in case any retrieves are waiting for data, wake them
+       if (numOccupied == 1) {
+         notifyAll();      // Notify when inserting to an empty buffer
+       }
     }
 
     public synchronized Object retrieve() throws InterruptedException {
@@ -26,7 +28,9 @@ public class BoundedBuffer {
        buffer[firstOccupied] = null;       // may help garbage collector
        firstOccupied = (firstOccupied + 1) % buffer.length;
        numOccupied--;
-       notifyAll();      // in case any retrieves are waiting for data, wake them
+       if (numOccupied == 19) {
+         notifyAll();      // Notify when retrieving from a full buffer
+       }
        return retrieved;
     }
  }

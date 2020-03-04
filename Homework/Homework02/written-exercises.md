@@ -10,6 +10,10 @@ Having `State snapshot = state.get();` in the `audit()` function ensures that th
 
 See BoundedBufferTester.java for the code.
 
+### 4)
+
+BoundedBuffer.java contains the modified code. 
+
 ### 6)
 
 Virtual Address: `first = 12288`, `last = 16380`
