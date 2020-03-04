@@ -12,7 +12,11 @@ See BoundedBufferTester.java for the code.
 
 ### 4)
 
-BoundedBuffer.java contains the modified code. 
+BoundedBuffer.java contains the modified code.
+
+### 5)
+
+When using two-phase locking, it is impossible for T2 to see the old value of x and the new value of y since two-phase locking guarantees serializability between transactions- in this case, the writing and subsequent reading. T2 will only read new values. For "read committed" isolation level, this situation is possible. For snapshot isolation, it is not possible to do so since it would either read both old values or both new values. 
 
 ### 6)
 
