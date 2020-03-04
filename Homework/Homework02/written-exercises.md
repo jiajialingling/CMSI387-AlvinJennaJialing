@@ -6,6 +6,10 @@ Reversing the steps would prove to be problematic because the current thread wou
 ### 2)
 Having `State snapshot = state.get();` in the `audit()` function ensures that the calls `getSeatsRemaining()` and `getCashOnHand()` reference the same object. The removal of `snapshot` opens up the possibility of the State object changing states, thus having the two function calls referencing different objects.
 
+### 3)
+
+See BoundedBufferTester.java for the code.
+
 ### 6)
 
 Virtual Address: `first = 12288`, `last = 16380`
