@@ -15,6 +15,6 @@ Alvin: use flowchart maker
 
 | Command Line Options     | Explanation |
 |--------------------------|------------------------------------------------------------------------------------|
-| `mkdir [folder_name]`    | Makes a directory in the current working directory with the name `folder_name`. |
+| `mkdir [folder_name]`    | Makes new a directory in the current working directory with the name `folder_name`. |
 | `cd [folder_name]`       | Makes `folder_name` the new working directory.|
-| `mkdir [folder_name] -c` | Add `-c` to immediately `cd` into new directory `folder_name`. |
+| `mkdir [folder_name] -c` | Makes new a directory `folder_name` and immediately `cd`s into it. |
