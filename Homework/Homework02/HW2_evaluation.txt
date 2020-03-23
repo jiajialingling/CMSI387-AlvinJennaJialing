@@ -1,0 +1,49 @@
+
+
+CMSI 387 Operating Systems
+Results for Homework #2 Evaluation
+   Jenna, Alvin, and Qiyue
+==================================
+
+Question 1 mutex reversing:          5/ 5 points
+
+Question 2 auditing code change:     5/ 5 points
+
+Question 3 test program:            20/20 points
+
+Question 4 notifyall() addition:    10/10 points
+
+Question 5a 2-phase locking:         5/ 5 points
+
+Question 5b short read locks:        3/ 5 points
+   No, it's not possible.  With read committed isolation, the writes will
+      have exlusive locks, so T1 will have exclusive write access for the
+      duration of the transaction.  Since write locks are exclusive, in this
+      case it's the same outcome as with two-phase locking.
+
+Question 5c snapshot isolation:      3/ 5 points
+   Yes, it's possible.  With snapshot isolation, the values are written to
+      DIFFERENT locations than the original storage, and then later written
+      to the original location.  If T2 reads x before that update write is
+      done, and reads y AFTER that update write is done, it would have two
+      inconsistent values, the new value for x and the old value for y.
+
+Question 6 virtual address xlate:    5/ 5 points
+
+Question 7 calc. explanation:        5/ 5 points
+
+Question 8 loop 4096 analysis:      17/20 points
+   The problem actually wanted you to define a VERY large array as a command
+      line argument, then fill the array, then access every 4096th element,
+      timing how long the program took.  You *sorta* did that, but not quite.
+
+Question 9 fork() tree:             15/15 points
+
+
+Total 93 out of 100 = 93.00% which is an A-minus
+
+Comments:
+---------
+
+
+Nice work!
