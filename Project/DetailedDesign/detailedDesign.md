@@ -2,7 +2,8 @@
 By Qiyue Aixinjueluo, Jenna Berlinberg, and Alvin Lai.
 
 ## 2.1 – Detailed list of Linux modules that will be modified/affected
-Qiyue:
+* `mkdir`: This modification would be added to the mkdir module. Using -c after typing the name of the new directory will perform the `cd [new_directory]` function all in the same step.
+* `cd`: This will not be affected, but it will be useful in the creation of this new utility. This is the inspiration for our modifications will likely come from the existing code in the built-in `cd`.
 
 ## 2.2 – Detailed list of any new modules that you will produce [or 'Not Applicable' if there are none]
 Not Applicable.
