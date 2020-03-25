@@ -9,7 +9,7 @@ By Qiyue Aixinjueluo, Jenna Berlinberg, and Alvin Lai.
 Not Applicable.
 
 ## 2.3 – Class diagram showing affected modules [and any new modules] and how they related to one another
-Alvin: use flowchart maker
+![Class Diagram](DetailedDesign/diagram.png)
 
 
 ## 2.4 – List or table of explanations of all command line options that will be implemented
