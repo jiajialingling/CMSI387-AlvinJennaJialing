@@ -2,7 +2,7 @@
 
 ### 1) see philosopher.c file
 
-### 2) qiyue
+### 2) Deadlocks happen when one or more philosophers keep waiting for someone else to put down their fork so he or she can eat. However, nobody does, which leads to a deadlock. The philosopher starves as a result. To prevent this: We will let the last philosopher first look at the fork on the right side. Then, he will look at the left side fork. We go in rounds and repeat this until everyone finishes their meal. This way, deadlocks will not happen and every philosopher gets to eat.
 
 ### 3) jenna
 
