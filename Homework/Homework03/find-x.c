@@ -14,7 +14,7 @@
     // open the file READ-ONLY
      int fd_in = open( argv[1], O_RDONLY );
      if( fd_in < 0 ) {
-        perror( argv[1] );                           // check if an error occurred
+        perror( argv[1] );
         return -1;
      }
      struct stat info;
@@ -30,27 +30,7 @@
         return -1;
      }
 
-    // // open the output file ~ check the flags here
-    //  int fd_out = open( argv[2], O_RDWR | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR );
-    //  if( fd_out < 0 ) {
-    //     perror( argv[2] );
-    //     return -1;
-    //  }
-
-    // // clear any of the file contents
-    //  if( ftruncate( fd_out, info.st_size ) < 0 ) {
-    //     perror( "Error setting output file size" );
-    //     return -1;
-    //  }
-
-    // map the output file into memory
-     // void *addr_out = mmap( 0, info.st_size, PROT_WRITE, MAP_SHARED, fd_out, 0 );
-     // if( addr_out == MAP_FAILED ) {
-     //    perror( "Error mapping output file" );
-     //    return -1;
-     // }
-
-    // Actually copy the file
+    // Search the file
      if(memchr(addr_in, 'X', info.st_size)) {
        printf("Found X!\n");
        return 0;
