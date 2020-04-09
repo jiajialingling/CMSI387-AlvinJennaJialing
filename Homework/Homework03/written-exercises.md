@@ -1,6 +1,6 @@
 ## **CMSI 387: Homework03 <br> Alvin, Jenna, Qiyue**
 
-### 1) qiyue
+### 1) see philosopher.c file
 
 ### 2) qiyue
 
